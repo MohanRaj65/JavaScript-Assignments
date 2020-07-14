@@ -1,0 +1,29 @@
+<html>
+    <head>
+    <h1>Assignment 1</h1>
+    <h2>JS program to display the current day and time.</h2>
+    <script>
+        function daytime()
+        {
+        var Today=new Date();
+        var Weekdays=["Sunday","Munday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+        var Day=Weekdays[Today.getDay()];
+        var Hours=Today.getHours();
+        var Minutes=Today.getMinutes();
+        var Seconds=Today.getSeconds();
+        var temp=(Hours>=12)? "PM ": "AM" ;
+        Hours=(Hours<10)? "0"+Hours : Hours;
+        Minutes=(Minutes<10)? "0"+Minutes: Minutes;
+       Seconds=(Seconds<10)? "0"+Seconds :Seconds;
+        
+        document.getElementById('Day').innerHTML="Today is: " + Day;
+        document.getElementById('Time').innerHTML="Current time is: " + Hours+" "+ temp + ":" + Minutes+ ":" + Seconds ;
+        }
+    </script>
+</head>
+<body>
+    <button onclick="daytime()">Click here</button>
+    <p id="Day"></p>
+    <p id="Time"></p>
+   </body>
+</html>

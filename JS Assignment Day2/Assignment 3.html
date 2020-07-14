@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <h2>Assignment 3</h2>
+        <h3>Js program to get the current date.</h3>
+        <script>
+            
+            function de()
+            {
+                var cd =new Date();
+                var month =cd.getMonth() + 1;
+                var date =cd.getDate();
+                var year=cd.getFullYear();
+                month=(month<10)? "0"+month : month;
+                date=(date<10)? "0"+date : date; 
+                document.getElementById('a1').innerHTML=month+"-" + date+"-" + year;
+                document.getElementById('a2').innerHTML=month+"/" + date+"/" + year;
+                document.getElementById('a3').innerHTML=date+"-" + month+"-" + year;
+                document.getElementById('a4').innerHTML=date+"/" + month+"/" + year; 
+            }
+        </script>
+    </head>
+    <body>
+        <button onclick="de()">click</button>
+        <p id="a1"></p>
+       <p id="a2"></p>
+        <p id="a3"></p>
+        <p id="a4"></p>
+    </body>
+</html>
