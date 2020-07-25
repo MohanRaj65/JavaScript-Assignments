@@ -18,8 +18,7 @@ dar.onclick = DarkMode = () => {
     if (night.getAttribute('Dark') != "black") {
         night.classList.toggle('nightmodeon');
 
-    }
-    else {
+    } else {
         night.classList.toggle('nightmodeoff');
     }
 
