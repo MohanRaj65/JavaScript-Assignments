@@ -1,0 +1,108 @@
+div {
+    text-align: center;
+}
+#hed{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    font-size: 80px;
+    color:rgb(16, 16, 17);
+    padding-top: 2%;
+    -webkit-text-stroke: 2px rgb(60, 162, 245);
+    /* opacity: 0.5;*/
+}
+#con{
+    font-size: 20px;
+    color:black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    stroke-width: 10px;
+    /* -webkit-text-stroke:2px rgba(126, 187, 245, 0.835); */
+}
+
+button {
+    font-size: 25px;
+    background-color: rgba(37, 39, 41, 0.644);
+    color: whitesmoke;
+    border-radius: 30px;
+    border-color:rgb(51, 152, 246);
+    opacity: 0.9;
+    }
+
+#rand {
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    color: rgb(24, 24, 22);
+    -webkit-text-stroke: 1px rgba(0, 132, 255, 0.431);
+    text-align:center;
+    padding-top: 100px;
+}
+body{
+    /* background-image: url("https://images.wallpaperscraft.com/image/texture_wall_white_147809_1600x1200.jpg"); */
+    /* background-image: url("https://wallpaperplay.com/walls/full/7/1/f/89093.jpg"); */
+    /* background-image: url("https://wallpaperplay.com/walls/full/7/6/0/89101.jpg"); */
+    background-image: url("https://images.wallpaperscraft.com/image/wall_strip_line_134522_1600x1200.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* .rightnav {
+    background-color: #333;
+    overflow: hidden;
+  } */
+  
+  /* Style the links inside the navigation bar */
+  .rightnav a{
+    float:right;
+    display: block;
+    color: #f2f2f2;
+    text-align:center;
+    padding-top:5px;
+    padding-right:30px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 40px;
+    width: 5%;
+    /* z-index: 99; */
+  }
+  
+  /* Change the color of links on hover */
+  .rightnav a:hover {
+    background-color:whitesmoke;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .rightnav a.active {
+    background-color:rgba(45, 45, 46, 0.568);
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .rightnav a.icon {
+    display: none;
+  }
+   /* #logo{
+      text-align: left;
+      font-size: 100px;
+      
+
+  } */
+#sty{
+  font-size: 50px;
+  text-align: center;
+  padding-top: 10%;
+}
+#cont{
+  font-size: 50px;
+  padding-top: 10%;
+  padding-left:30%;
+}
+#lo{
+  padding-right: 50cm;
+  height: 2.5cm;
+  width: 2.5cm;
+}
+
